@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+/* CSS Variables */
+/*  */
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ++++++++++++++++++++++++
+common classes */
+.my-area {
+  /* width: 1140px; */
+  margin: auto;
+}
+
+/* +++++++++++++++++++++++++
+header started */
+header {
+  background-color: #f1f1f1;
+  box-shadow: 0 0 10px 0 #ccc;
+  padding: 25px 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 2px 0px #333;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav .logo {
+  color: #333;
+  padding: 5px;
+  text-decoration: none;
+  background-color: transparent;
+  transition: 0.3s;
+  font-size: 22px;
+  border-radius: 5px;
+}
+
+header nav .logo:hover {
+  background-color: #333;
+  color: white;
+  transition: 0.3s;
+}
+
+.navigation {
+  padding: 0;
+  /* margin: auto; */
+}
+
+.nav-item {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 5px;
+}
+
+.nav-item a {
+  color: #333;
+  padding: 6px 20px;
+  text-decoration: none;
+  background-color: transparent;
+  transition: 0.3s;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.nav-item a:hover {
+  background-color: #333;
+  color: white;
+  transition: 0.3s;
+}
+
+.nav-item .download {
+  padding: 10px;
+  margin: auto;
+  border: none;
+  background-color: #4285f4;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.nav-item .download:hover {
+  background-color: white;
+  /* color: white; */
+  transition: 0.3s;
+  /* border-radius: 5px; */
+}
+/* 
+++++++++++++++++++++++++++++++++++
+Banner Styles
+++++++++++++++++++++++++++++++++++++++
+*/
+
+.banner1 {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url(../image/image1.jpg);
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content1 {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  text-align: left;
+}
+
+.banner-heading1 {
+  color: white;
+  font-size: 275%;
+}
+
+.banner1 p {
+  color: white;
+}
+
+.banner-text1 {
+  width: 30%;
+  text-align: justify;
+  margin-left: 20%;
+  margin-top: 20%;
+}
+
+.banner-button1 {
+  padding: 7% 0;
+}
+
+.banner-button-1 {
+  padding: 10px 20px;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 2px;
+  font-size: smaller;
+  box-shadow: #333;
+  text-align: justify;
+}
+
+.banner-button-2 {
+  margin-left: 5px;
+  padding: 10px 20px;
+  color: black;
+  /* background-color: transparent; */
+  text-decoration: none;
+  border-radius: 2px;
+  font-size: smaller;
+  border: 2px solid white;
+  box-shadow: #333;
+  text-align: justify;
+}
+
+.banner-button-1:hover {
+  background-color: #333;
+  color: white;
+  transition: 0.3s;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.banner-button-2:hover {
+  background-color: #333;
+  color: white;
+  transition: 0.3s;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++===
+cards
++++++++++++++++++++++++++++++++++++++++++++++ */
+.cards {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+.card-heading {
+  text-align: center;
+  padding: 5% 5% 5% 5%;
+}
+.card-para {
+  text-align: center;
+  padding: 0 5% 5% 5%;
+}
+.card-1 {
+  background-color: rgba(126, 87, 194, 255);
+}
+.card-2 {
+  background-color: rgba(171, 71, 188, 255);
+}
+.card-3 {
+  background-color: rgba(38, 166, 154, 255);
+}
+.card-4 {
+  background-color: rgba(41, 182, 246, 255);
+}
+.icon {
+  padding: 5% 0 0 0;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SECTION-3
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.section3 {
+  background-color: rgba(245, 245, 245, 255);
+  margin: 0;
+  padding: 0;
+}
+
+.work-para {
+  padding: 3%;
+  font-family: "Open Sans", sans-serif;
+  color: rgba(141, 162, 172, 255);
+  font-size: 125%;
+}
+
+.image-height {
+  height: 330px;
+  width: 100%;
+}
+.image-height img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.section3 i {
+  padding-bottom: 7%;
+}
+.section3 h3 {
+  padding-bottom: 5%;
+  font-weight: 200;
+}
+.section3 div p {
+  font-family: "Open Sans", sans-serif;
+  color: rgba(141, 162, 172, 255);
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SECTION-4
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.project-para {
+  padding: 0 0 5% 0;
+  font-family: "Open Sans", sans-serif;
+  color: rgba(141, 162, 172, 255);
+}
+
+.grey-text {
+  font-family: "Open Sans", sans-serif;
+  color: rgba(141, 162, 172, 255);
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SECTION-5
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.pricing-para {
+  padding: 2% 13%;
+}
+
+.pricing {
+  background-color: #3949ab;
+}
+
+.pricing-heading {
+  padding-top: 5%;
+}
+.pricing-details {
+  padding: 2% 0;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+#pricing .card-image {
+  background: url("../image/image5.jpg") no-repeat center center;
+}
+
+#pricing ul li {
+  font-size: 1.1em;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SECTION-6
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.member-image {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.team-top {
+  padding: 3%;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SECTION-7(contact)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.contact {
+  min-height: 80vh;
+  background-repeat: no-repeat;
+  background-image: url(../image/image1.jpg);
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.form-control {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+input label {
+  font-family: "Open Sans", sans-serif;
+  color: rgba(141, 162, 172, 255);
+}
+.md-textarea {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.send-button {
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+  border: none;
+  background-color: #4052b3;
+  font-size: 18px;
+  color: white;  
+}
+.send-button:hover {
+  background-color: #4285f4;
+  color: white;
+}
+div .contact-list {
+  list-style: none;
+}
+
+.subject-area{
+  width: 300px;
+}
+
+/* 
++++++++++++++++++++++++++++++++++++++++++
+footer
+++++++++++++++++++++++++++++++++++++++++++ */
+
+
+.footer-icon{
+  background-color: #303f9f;
+  justify-content: center;
+  padding-top: 35px;
+}
+.footer-copyright{
+  background-color: #26327f;
+}
+.footer-copyright a:hover{
+  text-decoration: none;
+}
